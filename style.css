@@ -1,6 +1,6 @@
 * {
 
-    color: brown
+    color: #555;
 }
 
 
@@ -9,14 +9,45 @@ h1 {
 }
 
 li {
-    color: plum
+    color: purple
 }
 
 .leipateksti {
-    color: orange;
+    color: #555;
 }
 
 
 #punainen-kohta {
     color: red
 }
+
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+
+}
+
+h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+}
+
+h2{
+    color: #333;
+}
+
+h1{
+    position: relative;
+    top: -50px;
+    color: #333;
+}
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: lightblue;
+  }
+  
+
